@@ -59,3 +59,7 @@ let section = article.firstElementChild;
 
   // Insert the new li element into of the list
   ul.appendChild(li);
+
+  // move it up to the top of the list
+  var firstLi = ul.getElementsByTagName('li');
+  ul.insertBefore(li, firstLi);
