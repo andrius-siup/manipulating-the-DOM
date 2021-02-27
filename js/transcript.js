@@ -42,7 +42,7 @@ let section = article.firstElementChild;
  var a = document.createElement('a');
 
  a = textContent = "Four";
- a.style.color = 'white';
+ a.style.color = "white";
 
  // Insert an anchor link to the li
  li.appendChild(a);
