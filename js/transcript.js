@@ -63,3 +63,5 @@ let section = article.firstElementChild;
   // move it up to the top of the list
   var firstLi = ul.getElementsByTagName('li');
   ul.insertBefore(li, firstLi);
+
+  firstLi.classList.remove('active');
