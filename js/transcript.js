@@ -43,3 +43,6 @@ let section = article.firstElementChild;
 
  a = textContent = "Four";
  a.style.color = 'white';
+
+ // Insert an anchor link to the li
+ li.appendChild(a);
