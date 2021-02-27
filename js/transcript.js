@@ -54,4 +54,8 @@ let section = article.firstElementChild;
 
   // Finding the ul element
   var uls = document.getElementsByTagName('ul');
-  
+
+  var ul = uls[0];
+
+  // Insert the new li element into of the list
+  ul.appendChild(li);
