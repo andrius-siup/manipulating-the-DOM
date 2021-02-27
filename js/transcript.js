@@ -8,3 +8,8 @@ var leads = document.getElementsByClassName('lead');
 
 // Look at the first class lead
 var lead = leads[0];
+lead.textContent;
+
+
+
+
