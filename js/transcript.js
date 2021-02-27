@@ -31,4 +31,6 @@ let section = article.firstElementChild;
 
  // creating new li that goes to the nav
  var li = document.createElement('li');
- 
+
+ // Give it a class name
+ li.classList.add('last');
