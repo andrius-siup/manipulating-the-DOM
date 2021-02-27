@@ -15,5 +15,11 @@ var article = document.querySelector('#home-page');
 var section = document.querySelector('section');
 var lead = document.querySelector('.lead');
 
+var article = document.getElementById('home-page');
 
+article.children;
+article.parentElement;
+article.nextElementSibling;
+article.firstElementChild;
+article.lastElementChild;
 
