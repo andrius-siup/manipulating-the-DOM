@@ -37,4 +37,9 @@ let section = article.firstElementChild;
 
  // Change its css
  li.style.backgroundColor = 'pink';
- 
+
+ // Create an anchor link to go in the new li
+ var a = document.createElement('a');
+
+ a = textContent = "Four";
+ a.style.color = 'white';
