@@ -65,3 +65,14 @@ let section = article.firstElementChild;
   ul.insertBefore(li, firstLi);
 
   firstLi.classList.remove('active');
+
+  /**
+   * Updating a list of elements
+   */
+
+   var lis = ul[0].getElementsByTagName('li');
+   var ul = document.getElementsByTagName('ul');
+   var li;
+   for (var i = 0; i < lis.length; i++) {
+       lis[i].style.backgroundColor = 'pink';
+   }
