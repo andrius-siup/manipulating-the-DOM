@@ -34,3 +34,7 @@ let section = article.firstElementChild;
 
  // Give it a class name
  li.classList.add('last');
+
+ // Change its css
+ li.style.backgroundColor = 'pink';
+ 
