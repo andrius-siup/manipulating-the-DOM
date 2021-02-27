@@ -46,3 +46,12 @@ let section = article.firstElementChild;
 
  // Insert an anchor link to the li
  li.appendChild(a);
+
+ /* 
+    Modifying the DOM
+  
+  */
+
+  // Finding the ul element
+  var uls = document.getElementsByTagName('ul');
+  
