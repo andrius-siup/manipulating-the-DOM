@@ -24,3 +24,11 @@ article.firstElementChild;
 article.lastElementChild;
 
 let section = article.firstElementChild;
+
+/*
+ * Creating new elements
+ */
+
+ // creating new li that goes to the nav
+ var li = document.createElement('li');
+ 
